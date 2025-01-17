@@ -1,14 +1,13 @@
-###Dataset Name: Hot Dog Survey Spring 2025
-###Description: A survey collecting opinions about whether a hot dog is considered a sandwich, along with demographic and academic details of the respondents.
-
 # Data Dictionary
 
-| Column               | Description                                                                                 | Potential Responses                                                                          |
-|-----------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| `Timestamp`          | Indicates the month/day/year and hour, minute, and second that the responder completed the survey. | Format: `month/day/year, hour:minute:second`                                               |
-| `Sandwich`           | Answers the question: Is a hot dog a sandwich?                                              | `"Yes"`: Respondent believes it is a sandwich, `"No"`: Respondent believes it is not.       |
-| `Reasoning`          | Indicates why they chose if a hot dog is a sandwich.                                        | Any length string description of the reasoning.                                             |
-| `Enrolled at UVA`    | Indicates if the responder is enrolled at UVA.                                              | `"Yes"`: They are enrolled, `"No"`: They are not.                                           |
-| `Major at UVA`       | Answers what the responder's current major is, if applicable.                               | Any string for the major, or empty if not applicable.                                       |
-| `Year at UVA`        | Indicates the current year of study at UVA (for undergraduate respondents).                 | `First`, `Second`, `Third`, `Fourth`, or empty for not applicable.                         |
-| `Location of birth`  | Indicates where the responder was born.                                                     | Any location (state or country).                                                           |
+| Column Name                                                                                  | Description                                                                                             |
+|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| `Timestamp`                                                                                 | The date and time when the survey response was submitted.                                               |
+| `Do you believe that a hotdog falls under the category of a sandwich?`                      | Respondent's opinion on whether a hotdog is a sandwich.                                                 |
+| `What is the rationale behind your opinion?`                                                | Explanation or reasoning provided by the respondent for their answer to the sandwich question.          |
+| `Are you currently enrolled as an undergraduate or graduate student at the University of Virginia?` | Indicates whether the respondent is a student at the University of Virginia.                           |
+| `What is your field of study or major?`                                                     | The academic field or major of the respondent.                                                          |
+| `What state or country were you born in?`                                                   | The state or country where the respondent was born.                                                     |
+| `If you are an undergraduate, what is your current academic year?`                          | The current academic year of undergraduate respondents.                                                 |
+| `Gender: How do you identify?`                                                              | The gender identity selected by the respondent.                                                         |
+| `You preferred to self-describe for gender; please, share your identity below`              | Optional free-text field for respondents to self-describe their gender identity.                        |
