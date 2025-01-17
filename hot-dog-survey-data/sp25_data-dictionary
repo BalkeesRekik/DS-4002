@@ -1,3 +1,16 @@
 Dataset Name: Hot Dog Survey Spring 2025
 Description: A survey collecting opinions about whether a hot dog is considered a sandwich, along with demographic and academic details of the respondents.
 
+# Data Dictionary
+
+| Column Name                                                                                  | Description                                                                                             | Example Values                           |
+|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------|
+| `Timestamp`                                                                                 | The date and time when the survey response was submitted.                                               | `2025-01-15 21:53:04.789`                |
+| `Do you believe that a hotdog falls under the category of a sandwich?`                      | Respondent's opinion on whether a hotdog is a sandwich.                                                 | `No`, `Yesss`, `NO`                      |
+| `What is the rationale behind your opinion?`                                                | Explanation or reasoning provided by the respondent for their answer to the sandwich question.          | `The bread is connected.`                |
+| `Are you currently enrolled as an undergraduate or graduate student at the University of Virginia?` | Indicates whether the respondent is a student at the University of Virginia.                           | `Yes`                                    |
+| `What is your field of study or major?`                                                     | The academic field or major of the respondent.                                                          | `Biology and Psychology`                 |
+| `What state or country were you born in?`                                                   | The state or country where the respondent was born.                                                     | `Virginia, United States of America`     |
+| `If you are an undergraduate, what is your current academic year?`                          | The current academic year of undergraduate respondents.                                                 | `Third year`                             |
+| `Gender: How do you identify?`                                                              | The gender identity selected by the respondent.                                                         | `Woman`                                  |
+| `You preferred to self-describe for gender; please, share your identity below`              | Optional free-text field for respondents to self-describe their gender identity.                        | `NaN` (if not provided)                  |
